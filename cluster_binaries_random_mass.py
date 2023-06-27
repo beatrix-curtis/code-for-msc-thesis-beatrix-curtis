@@ -22,7 +22,7 @@ from amuse.units.trigo import sin, cos
 from amuse.datamodel.particles import Particles
 from amuse.ic.plummer import new_plummer_sphere
 from amuse.ic.kingmodel import new_king_model
-from amuse.ext.masc.binaries_updated import new_binary_distribution
+from amuse.ext.masc.binaries import new_binary_distribution
 from numpy.random import random
 from numpy.random import uniform
 try:
