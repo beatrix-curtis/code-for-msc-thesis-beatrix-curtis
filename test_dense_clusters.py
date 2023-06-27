@@ -22,7 +22,7 @@ from amuse.ext.orbital_elements import get_orbital_elements_from_binaries, gener
 
 from amuse.ext.masc.cluster_binaries_high_masses_in_binaries import new_star_cluster, new_masses
 #from amuse.ext.masc.cluster_binaries_random_mass import new_star_cluster, new_masses
-from amuse.ext.masc.binaries_updated import new_binary_distribution
+from amuse.ext.masc.binaries import new_binary_distribution
 
 # Fix random seed for reproducibility
 num = random.randint(1,1000000)
